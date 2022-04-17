@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/codica-weather/static/css/main.0feeffca.css",
+    "main.js": "/codica-weather/static/js/main.0507d521.js",
+    "index.html": "/codica-weather/index.html",
+    "main.0feeffca.css.map": "/codica-weather/static/css/main.0feeffca.css.map",
+    "main.0507d521.js.map": "/codica-weather/static/js/main.0507d521.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0feeffca.css",
+    "static/js/main.0507d521.js"
+  ]
+}
