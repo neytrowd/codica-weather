@@ -1,0 +1,23 @@
+.root{
+  max-width: 280px;
+  cursor: pointer;
+
+  .avatar{
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .degree{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .actions{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

@@ -1,0 +1,52 @@
+{
+   "env": {
+      "browser": true,
+      "es2021": true
+   },
+   "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:@typescript-eslint/recommended",
+      "airbnb",
+      "prettier"
+   ],
+   "parser": "@typescript-eslint/parser",
+   "parserOptions": {
+      "ecmaFeatures": {
+         "jsx": true
+      },
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+   },
+   "plugins": ["react", "@typescript-eslint"],
+   "rules": {
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx"] }],
+      "import/extensions": [
+         "error",
+         "ignorePackages",
+         {
+            "js": "never",
+            "jsx": "never",
+            "ts": "never",
+            "tsx": "never"
+         }
+      ],
+      "react/function-component-definition": [1, {
+         "namedComponents": ["function-declaration", "function-expression" , "arrow-function"],
+         "unnamedComponents": ["function-expression" , "arrow-function"]
+      }],
+      "arrow-body-style": "off",
+      "import/order": "off",
+      "react/jsx-props-no-spreading": "off",
+      "import/prefer-default-export": "off",
+      "import/newline-after-import": "off",
+      "no-param-reassign": 0
+   },
+   "settings": {
+      "import/resolver": {
+         "node": {
+            "extensions": [".js", ".jsx", ".ts", ".tsx"]
+         }
+      }
+   }
+}
